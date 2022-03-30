@@ -4,13 +4,13 @@
   "description": "A model view controller Tech Blog!",
   "main": "server.js",
   "directories": {
-    
+    "test": "tests"
   },
   "scripts": {
     "test": "jest",
+    "watch": "nodemon server.js",
     "start": "node server.js",
     "seed": "node seeds/index.js"
-
   },
   "repository": {
     "type": "git",
@@ -30,14 +30,15 @@
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
     "express-session": "^1.17.2",
-    "handlebars": "^4.7.7",
-    "jest": "^27.5.1",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
+    "post": "^0.0.1",
+    "seeds": "^2.3.1",
     "sequelize": "^6.16.1"
   },
   "devDependencies": {
     "@creativebulma/bulma-divider": "^1.1.0",
     "jest": "^26.0.1"
-  }
+  },
+  "keywords": []
 }
