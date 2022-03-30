@@ -1,14 +1,16 @@
 {
   "name": "jude-c-tech-blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "A model view controller Tech Blog!",
   "main": "server.js",
   "directories": {
     
   },
-  "scripts": {"test": "jest",
+  "scripts": {
+    "test": "jest",
     "start": "node server.js",
     "seed": "node seeds/index.js"
+
   },
   "repository": {
     "type": "git",
